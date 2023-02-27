@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<title>Karl-Erik Enkelmann Web Developer Profile</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+body {
+	background: white;
+}
+@page {
+	size: A4;
+	margin: 1.5cm;
+}
+#page {
+	margin: 1.5cm;
+	background: white;
+	padding: .5cm;
+}
+body {
+	font-family: Georgia, serif;
+}
+#contact , #intro , #skills, #education, #workhistory {
+	border: 1px solid white;
+	margin-bottom: 1cm;
+}
+img {
+	margin: 1cm;
+	border-radius: 50%;
+	width: auto;
+	height: auto;
+}
+.time {
+	display: block;
+	font-variant: small-caps;
+	
+}
+.degree, .jobtitle {
+	display: block;
+	font-size: large;
+	font-weight: bold;
+}
+.institution {
+	display: block;
+}
+#introbox {
+	display: flex;
+}
+#intro {
+	width: 100%;
+	border: 1px solid red;
+}
+h1 {
+	margin: 1cm;
+	margin-left: 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+h2 {
+	margin-bottom: .2cm;
+	font-family: 'Fira Sans', sans-serif;
+}
+p {
+	margin-right: 1cm;
+}
+ul {
+	margin: 0;
+}
+#skillsanded {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+#skills {
+	width: 70%;
+}
+#contact {
+	text-align: center;
+}
+ul {
+	margin: 0;
+}
+.job, .education-item {
+	margin-bottom: .3cm;
+}
+
+</style>
+</head>
+<body>
+	<div id="page">
+		<div id="introbox">
+		<div id="intro">
+			<h1>Karl-Erik Enkelmann</h1>
+			<p>Is a full stack web developer and musician.</p>
+			<p>Was born on April 5, 1987.</p>
+			<p>Is a citizen of Norway and Germany</p>
+		</div>
+		<img src="portrait.png" alt="Karl-Erik Enkelmann Portrait">
+		</div>
+	<div id="skillsanded">	
+	<div id="skills">
+		<h2>Skills</h2>
+		<ul>
+			<li>Programming with Rust, Typescript and Python</li>
+			<li>Git, Docker, SQL, Angular, HTML/CSS, Django, Actix-Web</li>
+			<li>Test Driven Development and modern Web Standards</li>
+			<li>Audio Engineering, digital and analog</li>
+			<li>Fluent in English, German, French, Norwegian, Spanish, Swedish</li>
+			<li>Double Bass, Electric Bass, Piano, Guitar, Musical Direction and Composition</li>
+		</ul>
+	</div>
+
+	<div id="contact">
+		<h2>Contact</h2>
+		<address>Liblarer Str. 30, 50321 Brühl, Germany<br>
+			<span id="phonenumber">(+49) 163 1705045</span><br>
+			<span id="email">mail@karlerikenkelmann.com</span><br>
+		
+		</address>
+	</div>
+
+	</div>
+	<div id="education">
+		<h2>Education</h2>
+		<div class="education-item">
+		<span class="time">October 2008 - April 2013</span>
+		<span class="degree">Bachelor of Arts</span>
+		<span class="institution">UdK Berlin</span>
+		<span class="specialization">Double Bass (Jazz)</span>
+		</div>
+		<div class="education-item">
+		<span class="time">October 2005</span>
+		<span class="degree">Abitur (High School)</span>
+		<span class="institution">Gymnasium 'Am Lindenberg', Ilmenau</span>
+		<span class="specialization">Mathematics and Art</span>
+		</div>
+	</div>
+	<div id="workhistory">
+		<h2>Work History</h2>
+		<div class="job">
+		<span class="time">2013-present</span>
+		<span class="jobtitle">Freelance Musician</span>
+		<ul class="jobroles">
+			<li>Musical Direction and Project management</li>
+			<li>Releases on major and independent labels (Blue Note, MPS, Agogo etc.)</li>
+			<li>Hundreds of live and studio appearances around the world</li>
+			<li>Jazz, classical, pop and world music</li>
+		</ul>
+		</div>
+		<div class="job">
+		<span class="time">2017-present</span>
+		<span class="jobtitle">Private Music Teacher</span>
+		<ul class="jobroles">
+			<li>Teaching Bass, Guitar, Piano and Cello</li>
+			<li>For adults and children</li>
+		</ul>
+		</div>
+		<div class="job">
+		<span class="time">June 2014 - December 2019</span>
+		<span class="jobtitle">Audio Engineer at Lakeside Studio, Berlin</span>
+		<ul class="jobroles">
+			<li>Lead Engineer on dozens of recording session</li>
+			<li>Audio editing, mixing and mastering</li>
+		</ul>
+		</div>
+
+	
+
+	</div>
+</body>
